@@ -1,9 +1,5 @@
-import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import App from './App';
-
-// Mock fetch before any tests run
-
 
 describe('App', () => {
     it('renders tabloid articles heading', async () => {
