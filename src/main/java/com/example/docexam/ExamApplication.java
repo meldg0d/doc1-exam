@@ -19,7 +19,7 @@ public class ExamApplication {
 }
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5180") // Allow React frontend
+@CrossOrigin(origins = "http://localhost:5173") // Allow React frontend
 @RequestMapping("/api")
 class ArticleController {
 
