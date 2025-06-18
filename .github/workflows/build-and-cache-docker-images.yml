@@ -2,7 +2,7 @@ name: Build and Cache Docker Images
 
 on:
   push:
-    branches: [ main, dev, feature/** ]
+    branches: [ master, dev, feature/** ]
     paths:
       - 'src/**'
       - 'pom.xml'
